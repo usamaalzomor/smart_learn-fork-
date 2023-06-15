@@ -6,10 +6,9 @@ from .models import (
     TagModule, 
     Module, 
     Lesson, 
-    InstructorSkill, 
-    SkillCertification,
     Quiz
 )
+from user_service.models import InstructorSkill, SkillCertification
 # Register your models here.
 
 @admin.register(Course)
